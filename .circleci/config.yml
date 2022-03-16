@@ -14,7 +14,7 @@ jobs: # a basic unit of work in a run
 
       - run:
           name: Add VNC user
-          command: sudo /usr/sbin/sysadminctl -addUser vncuser -fullName "rudrank" -password codemagic -admin
+          command: sudo /usr/sbin/sysadminctl -addUser vncuser -fullName "rudrank" -password "codemagic" -admin
       - run:
           name: Run Tests
           command: xcodebuild test -scheme Quoty-iOS
