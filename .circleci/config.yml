@@ -16,7 +16,7 @@ jobs: # a basic unit of work in a run
           command: sudo /usr/sbin/sysadminctl -addUser vncuser -fullName "rudrank" -password "codemagic" -admin
       - run:
           name: Run Tests
-          command: xcodebuild -project Quoty.xcodeproj -scheme "Quoty (iOS)" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.4' test
+          command: xcodebuild -project Quoty.xcodeproj -scheme "Quoty-iOS" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.4' test
   macos-test:
     macos:
       xcode: 13.3
@@ -28,7 +28,7 @@ jobs: # a basic unit of work in a run
           command: sudo /usr/sbin/sysadminctl -addUser vncuser -fullName "rudrank" -password "codemagic" -admin
       - run:
           name: Run Tests
-          command: xcodebuild test -scheme "Quoty (macOS)"
+          command: xcodebuild test -scheme "Quoty-macOS"
 
 workflows:
   ios-testing-workflow:
