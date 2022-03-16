@@ -1,6 +1,6 @@
 definitions:
   environment_versions: &quoty_environment_versions
-    xcode: edge
+    xcode: latest
     cocoapods: default
     vars:
       XCODE_PROJECT: "Quoty.xcodeproj"
