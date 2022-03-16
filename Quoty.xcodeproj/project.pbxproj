@@ -17,6 +17,14 @@
 		0ACF2DA527E11891000B1D89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2D7B27E11890000B1D89 /* ContentView.swift */; };
 		0ACF2DA627E11891000B1D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF2D7C27E11891000B1D89 /* Assets.xcassets */; };
 		0ACF2DA727E11891000B1D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF2D7C27E11891000B1D89 /* Assets.xcassets */; };
+		0ACF2DB827E11907000B1D89 /* QuoteKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0ACF2DB727E11907000B1D89 /* QuoteKit */; };
+		0ACF2DBB27E1191D000B1D89 /* QuoteKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0ACF2DBA27E1191D000B1D89 /* QuoteKit */; };
+		0ACF2DC327E18FAC000B1D89 /* QuotyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DC227E18FAC000B1D89 /* QuotyUITests.swift */; };
+		0ACF2DC527E18FAC000B1D89 /* QuotyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DC427E18FAC000B1D89 /* QuotyUITestsLaunchTests.swift */; };
+		0ACF2DD227E18FD3000B1D89 /* QuotymacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DD127E18FD3000B1D89 /* QuotymacOSUITests.swift */; };
+		0ACF2DD427E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DD327E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift */; };
+		0ACF2DDB27E19BF3000B1D89 /* Authors.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF2DDA27E19A65000B1D89 /* Authors.json */; };
+		0ACF2DDC27E19BF6000B1D89 /* Authors.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF2DDA27E19A65000B1D89 /* Authors.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,20 @@
 			remoteInfo = "Quoty (iOS)";
 		};
 		0ACF2D9B27E11891000B1D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACF2D7527E11890000B1D89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ACF2D8627E11891000B1D89;
+			remoteInfo = "Quoty (macOS)";
+		};
+		0ACF2DC627E18FAC000B1D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACF2D7527E11890000B1D89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ACF2D8027E11891000B1D89;
+			remoteInfo = "Quoty (iOS)";
+		};
+		0ACF2DD527E18FD3000B1D89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0ACF2D7527E11890000B1D89 /* Project object */;
 			proxyType = 1;
@@ -49,6 +71,13 @@
 		0ACF2D9A27E11891000B1D89 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACF2D9E27E11891000B1D89 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0ACF2DA027E11891000B1D89 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0ACF2DC027E18FAC000B1D89 /* QuotyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACF2DC227E18FAC000B1D89 /* QuotyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotyUITests.swift; sourceTree = "<group>"; };
+		0ACF2DC427E18FAC000B1D89 /* QuotyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ACF2DCF27E18FD3000B1D89 /* QuotymacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotymacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACF2DD127E18FD3000B1D89 /* QuotymacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotymacOSUITests.swift; sourceTree = "<group>"; };
+		0ACF2DD327E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotymacOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ACF2DDA27E19A65000B1D89 /* Authors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Authors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACF2DB827E11907000B1D89 /* QuoteKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACF2DBB27E1191D000B1D89 /* QuoteKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +111,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0ACF2DBD27E18FAC000B1D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACF2DCC27E18FD3000B1D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +135,10 @@
 				0ACF2D8827E11891000B1D89 /* macOS */,
 				0ACF2D9127E11891000B1D89 /* Tests iOS */,
 				0ACF2D9D27E11891000B1D89 /* Tests macOS */,
+				0ACF2DC127E18FAC000B1D89 /* QuotyUITests */,
+				0ACF2DD027E18FD3000B1D89 /* QuotymacOSUITests */,
 				0ACF2D8227E11891000B1D89 /* Products */,
+				0ACF2DB927E1191D000B1D89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +147,7 @@
 			children = (
 				0ACF2D7A27E11890000B1D89 /* QuotyApp.swift */,
 				0ACF2D7B27E11890000B1D89 /* ContentView.swift */,
+				0ACF2DDA27E19A65000B1D89 /* Authors.json */,
 				0ACF2D7C27E11891000B1D89 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -111,6 +160,8 @@
 				0ACF2D8727E11891000B1D89 /* Quoty.app */,
 				0ACF2D8E27E11891000B1D89 /* Tests iOS.xctest */,
 				0ACF2D9A27E11891000B1D89 /* Tests macOS.xctest */,
+				0ACF2DC027E18FAC000B1D89 /* QuotyUITests.xctest */,
+				0ACF2DCF27E18FD3000B1D89 /* QuotymacOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +192,31 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		0ACF2DB927E1191D000B1D89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0ACF2DC127E18FAC000B1D89 /* QuotyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACF2DC227E18FAC000B1D89 /* QuotyUITests.swift */,
+				0ACF2DC427E18FAC000B1D89 /* QuotyUITestsLaunchTests.swift */,
+			);
+			path = QuotyUITests;
+			sourceTree = "<group>";
+		};
+		0ACF2DD027E18FD3000B1D89 /* QuotymacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACF2DD127E18FD3000B1D89 /* QuotymacOSUITests.swift */,
+				0ACF2DD327E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift */,
+			);
+			path = QuotymacOSUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +233,9 @@
 			dependencies = (
 			);
 			name = "Quoty (iOS)";
+			packageProductDependencies = (
+				0ACF2DB727E11907000B1D89 /* QuoteKit */,
+			);
 			productName = "Quoty (iOS)";
 			productReference = 0ACF2D8127E11891000B1D89 /* Quoty.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +253,9 @@
 			dependencies = (
 			);
 			name = "Quoty (macOS)";
+			packageProductDependencies = (
+				0ACF2DBA27E1191D000B1D89 /* QuoteKit */,
+			);
 			productName = "Quoty (macOS)";
 			productReference = 0ACF2D8727E11891000B1D89 /* Quoty.app */;
 			productType = "com.apple.product-type.application";
@@ -214,6 +296,42 @@
 			productReference = 0ACF2D9A27E11891000B1D89 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0ACF2DBF27E18FAC000B1D89 /* QuotyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACF2DC827E18FAC000B1D89 /* Build configuration list for PBXNativeTarget "QuotyUITests" */;
+			buildPhases = (
+				0ACF2DBC27E18FAC000B1D89 /* Sources */,
+				0ACF2DBD27E18FAC000B1D89 /* Frameworks */,
+				0ACF2DBE27E18FAC000B1D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACF2DC727E18FAC000B1D89 /* PBXTargetDependency */,
+			);
+			name = QuotyUITests;
+			productName = QuotyUITests;
+			productReference = 0ACF2DC027E18FAC000B1D89 /* QuotyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0ACF2DCE27E18FD3000B1D89 /* QuotymacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACF2DD727E18FD3000B1D89 /* Build configuration list for PBXNativeTarget "QuotymacOSUITests" */;
+			buildPhases = (
+				0ACF2DCB27E18FD3000B1D89 /* Sources */,
+				0ACF2DCC27E18FD3000B1D89 /* Frameworks */,
+				0ACF2DCD27E18FD3000B1D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACF2DD627E18FD3000B1D89 /* PBXTargetDependency */,
+			);
+			name = QuotymacOSUITests;
+			productName = QuotymacOSUITests;
+			productReference = 0ACF2DCF27E18FD3000B1D89 /* QuotymacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,6 +356,14 @@
 						CreatedOnToolsVersion = 13.3;
 						TestTargetID = 0ACF2D8627E11891000B1D89;
 					};
+					0ACF2DBF27E18FAC000B1D89 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0ACF2D8027E11891000B1D89;
+					};
+					0ACF2DCE27E18FD3000B1D89 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0ACF2D8627E11891000B1D89;
+					};
 				};
 			};
 			buildConfigurationList = 0ACF2D7827E11890000B1D89 /* Build configuration list for PBXProject "Quoty" */;
@@ -249,6 +375,9 @@
 				Base,
 			);
 			mainGroup = 0ACF2D7427E11890000B1D89;
+			packageReferences = (
+				0ACF2DB627E11906000B1D89 /* XCRemoteSwiftPackageReference "QuoteKit" */,
+			);
 			productRefGroup = 0ACF2D8227E11891000B1D89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +386,8 @@
 				0ACF2D8627E11891000B1D89 /* Quoty (macOS) */,
 				0ACF2D8D27E11891000B1D89 /* Tests iOS */,
 				0ACF2D9927E11891000B1D89 /* Tests macOS */,
+				0ACF2DBF27E18FAC000B1D89 /* QuotyUITests */,
+				0ACF2DCE27E18FD3000B1D89 /* QuotymacOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACF2DDC27E19BF6000B1D89 /* Authors.json in Resources */,
 				0ACF2DA627E11891000B1D89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACF2DDB27E19BF3000B1D89 /* Authors.json in Resources */,
 				0ACF2DA727E11891000B1D89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +419,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0ACF2D9827E11891000B1D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACF2DBE27E18FAC000B1D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACF2DCD27E18FD3000B1D89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,6 +478,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0ACF2DBC27E18FAC000B1D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACF2DC327E18FAC000B1D89 /* QuotyUITests.swift in Sources */,
+				0ACF2DC527E18FAC000B1D89 /* QuotyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACF2DCB27E18FD3000B1D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACF2DD227E18FD3000B1D89 /* QuotymacOSUITests.swift in Sources */,
+				0ACF2DD427E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -343,6 +508,16 @@
 			isa = PBXTargetDependency;
 			target = 0ACF2D8627E11891000B1D89 /* Quoty (macOS) */;
 			targetProxy = 0ACF2D9B27E11891000B1D89 /* PBXContainerItemProxy */;
+		};
+		0ACF2DC727E18FAC000B1D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ACF2D8027E11891000B1D89 /* Quoty (iOS) */;
+			targetProxy = 0ACF2DC627E18FAC000B1D89 /* PBXContainerItemProxy */;
+		};
+		0ACF2DD627E18FD3000B1D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ACF2D8627E11891000B1D89 /* Quoty (macOS) */;
+			targetProxy = 0ACF2DD527E18FD3000B1D89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -652,6 +827,81 @@
 			};
 			name = Release;
 		};
+		0ACF2DC927E18FAC000B1D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQZQG7N4WG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrankriyam.QuotyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quoty (iOS)";
+			};
+			name = Debug;
+		};
+		0ACF2DCA27E18FAC000B1D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQZQG7N4WG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrankriyam.QuotyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quoty (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ACF2DD827E18FD3000B1D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQZQG7N4WG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrankriyam.QuotymacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Quoty (macOS)";
+			};
+			name = Debug;
+		};
+		0ACF2DD927E18FD3000B1D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQZQG7N4WG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudrankriyam.QuotymacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Quoty (macOS)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -700,7 +950,49 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		0ACF2DC827E18FAC000B1D89 /* Build configuration list for PBXNativeTarget "QuotyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACF2DC927E18FAC000B1D89 /* Debug */,
+				0ACF2DCA27E18FAC000B1D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACF2DD727E18FD3000B1D89 /* Build configuration list for PBXNativeTarget "QuotymacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACF2DD827E18FD3000B1D89 /* Debug */,
+				0ACF2DD927E18FD3000B1D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0ACF2DB627E11906000B1D89 /* XCRemoteSwiftPackageReference "QuoteKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rryam/QuoteKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0ACF2DB727E11907000B1D89 /* QuoteKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ACF2DB627E11906000B1D89 /* XCRemoteSwiftPackageReference "QuoteKit" */;
+			productName = QuoteKit;
+		};
+		0ACF2DBA27E1191D000B1D89 /* QuoteKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ACF2DB627E11906000B1D89 /* XCRemoteSwiftPackageReference "QuoteKit" */;
+			productName = QuoteKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0ACF2D7527E11890000B1D89 /* Project object */;
 }
