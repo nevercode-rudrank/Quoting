@@ -11,7 +11,6 @@ definitions:
 workflows:
   ios-testing-workflow:
     name: iOS Testing Workflow
-    working_directory: Quoting
     environment:
       <<: *quoty_environment_versions
     scripts:
@@ -25,7 +24,6 @@ workflows:
 
   macos-testing-workflow:
     name: macOS Testing Workflow
-    working_directory: Quoting
     environment:
       <<: *quoty_environment_versions
     scripts:
