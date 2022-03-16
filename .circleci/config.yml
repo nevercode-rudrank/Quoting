@@ -17,9 +17,12 @@ jobs: # a basic unit of work in a run
           command: sudo /usr/sbin/sysadminctl -addUser vncuser -fullName "rudrank" -password "codemagic" -admin
       - run:
           name: Run Tests
-          command: xcodebuild test -scheme "Quoty (iOS)"
-          environment:
-            SCAN_DEVICE: iPhone 13
+          command: xcodebuild \
+            -project Quote.xcodeproj \
+            -scheme Quoty (iOS) \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.4' \
+            test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
