@@ -25,6 +25,14 @@
 		0ACF2DD427E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DD327E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift */; };
 		0ACF2DDB27E19BF3000B1D89 /* Authors.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF2DDA27E19A65000B1D89 /* Authors.json */; };
 		0ACF2DDC27E19BF6000B1D89 /* Authors.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF2DDA27E19A65000B1D89 /* Authors.json */; };
+		0ACF2DDE27E1AB65000B1D89 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DDD27E1AB65000B1D89 /* AuthorView.swift */; };
+		0ACF2DDF27E1AB65000B1D89 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DDD27E1AB65000B1D89 /* AuthorView.swift */; };
+		0ACF2DE127E1AB88000B1D89 /* Authors+Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DE027E1AB88000B1D89 /* Authors+Demo.swift */; };
+		0ACF2DE227E1AB88000B1D89 /* Authors+Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DE027E1AB88000B1D89 /* Authors+Demo.swift */; };
+		0ACF2DE427E1AB96000B1D89 /* AuthorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DE327E1AB96000B1D89 /* AuthorRow.swift */; };
+		0ACF2DE527E1AB96000B1D89 /* AuthorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DE327E1AB96000B1D89 /* AuthorRow.swift */; };
+		0ACF2DE727E1ABA8000B1D89 /* AuthorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DE627E1ABA8000B1D89 /* AuthorDetailView.swift */; };
+		0ACF2DE827E1ABA8000B1D89 /* AuthorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF2DE627E1ABA8000B1D89 /* AuthorDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +86,10 @@
 		0ACF2DD127E18FD3000B1D89 /* QuotymacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotymacOSUITests.swift; sourceTree = "<group>"; };
 		0ACF2DD327E18FD3000B1D89 /* QuotymacOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotymacOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0ACF2DDA27E19A65000B1D89 /* Authors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Authors.json; sourceTree = "<group>"; };
+		0ACF2DDD27E1AB65000B1D89 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
+		0ACF2DE027E1AB88000B1D89 /* Authors+Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Authors+Demo.swift"; sourceTree = "<group>"; };
+		0ACF2DE327E1AB96000B1D89 /* AuthorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRow.swift; sourceTree = "<group>"; };
+		0ACF2DE627E1ABA8000B1D89 /* AuthorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +159,10 @@
 			children = (
 				0ACF2D7A27E11890000B1D89 /* QuotyApp.swift */,
 				0ACF2D7B27E11890000B1D89 /* ContentView.swift */,
+				0ACF2DE027E1AB88000B1D89 /* Authors+Demo.swift */,
+				0ACF2DE327E1AB96000B1D89 /* AuthorRow.swift */,
+				0ACF2DE627E1ABA8000B1D89 /* AuthorDetailView.swift */,
+				0ACF2DDD27E1AB65000B1D89 /* AuthorView.swift */,
 				0ACF2DDA27E19A65000B1D89 /* Authors.json */,
 				0ACF2D7C27E11891000B1D89 /* Assets.xcassets */,
 			);
@@ -446,8 +462,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACF2DDE27E1AB65000B1D89 /* AuthorView.swift in Sources */,
 				0ACF2DA427E11891000B1D89 /* ContentView.swift in Sources */,
 				0ACF2DA227E11891000B1D89 /* QuotyApp.swift in Sources */,
+				0ACF2DE427E1AB96000B1D89 /* AuthorRow.swift in Sources */,
+				0ACF2DE727E1ABA8000B1D89 /* AuthorDetailView.swift in Sources */,
+				0ACF2DE127E1AB88000B1D89 /* Authors+Demo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,8 +475,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACF2DDF27E1AB65000B1D89 /* AuthorView.swift in Sources */,
 				0ACF2DA527E11891000B1D89 /* ContentView.swift in Sources */,
 				0ACF2DA327E11891000B1D89 /* QuotyApp.swift in Sources */,
+				0ACF2DE527E1AB96000B1D89 /* AuthorRow.swift in Sources */,
+				0ACF2DE827E1ABA8000B1D89 /* AuthorDetailView.swift in Sources */,
+				0ACF2DE227E1AB88000B1D89 /* Authors+Demo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
