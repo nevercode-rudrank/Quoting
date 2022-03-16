@@ -19,7 +19,7 @@ jobs: # a basic unit of work in a run
           name: Run Tests
           command: xcodebuild \
             -project Quote.xcodeproj \
-            -scheme Quoty (iOS) \
+            -scheme "Quoty (iOS)" \
             -sdk iphonesimulator \
             -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.4' \
             test
