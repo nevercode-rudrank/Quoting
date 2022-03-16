@@ -3,25 +3,38 @@
 version: 2.1
 
 jobs: # a basic unit of work in a run
-  test: # your job name
+  add-vnc: 
     macos:
-      xcode: 13.3 # indicate your selected version of Xcode
-    steps: # a series of commands to run
-      - checkout  # pull down code from your version control system.
-      - run: 
-          name: List schemes
-          command: xcodebuild -list
-
+      xcode: 13.3
+    steps:
       - run:
           name: Add VNC user
           command: sudo /usr/sbin/sysadminctl -addUser vncuser -fullName "rudrank" -password "codemagic" -admin
+  ios-test:
+    macos:
+      xcode: 13.3
+    steps:
+      - checkout  # pull down code from your version control system.
       - run:
           name: Run Tests
           command: xcodebuild -project Quoty.xcodeproj -scheme "Quoty (iOS)" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.4' test
-
+  macos-test:
+    macos:
+      xcode: 13.3
+    steps:
+      - checkout  # pull down code from your version control system.
+      - run:
+          name: Run Tests
+          command: xcodebuild test -scheme "Quoty (macOS)"
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  say-hello-workflow:
+  ios-testing-workflow:
     jobs:
-      - test
+      - add-vnc
+      - ios-test
+  macos-testing-workflow:
+    jobs:
+      - add-vnc
+      - macos-test 
+
