@@ -19,7 +19,7 @@ workflows:
           xcode-project run-tests \
             --project "$XCODE_PROJECT" \
             --scheme "$XCODE_iOS_SCHEME" \
-            --device "iPhone 13"
+            --device "iPhone 12"
         test_report: build/ios/test/*.xml
 
   macos-testing-workflow:
