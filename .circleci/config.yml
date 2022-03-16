@@ -8,6 +8,13 @@ jobs: # a basic unit of work in a run
       xcode: 13.3 # indicate your selected version of Xcode
     steps: # a series of commands to run
       - checkout  # pull down code from your version control system.
+      - run: 
+          name: List schemes
+          command: xcodebuild -list
+
+      - run:
+          name: Add VNC user
+          command: sudo /usr/sbin/sysadminctl -addUser vncuser -fullName "rudrank" -password codemagic -admin
       - run:
           name: Run Tests
           command: xcodebuild test -scheme Quoty-iOS
