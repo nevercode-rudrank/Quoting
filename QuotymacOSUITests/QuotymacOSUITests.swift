@@ -41,12 +41,12 @@ class QuotymacOSUITests: XCTestCase {
 
         window.scrollViews.tables.element.swipeDown()
 
-        let aesopQuery = window.tables.buttons["Aesop"]
+        let kalamQuery = window.tables.buttons["A. P. J. Abdul Kalam"]
 
-        expectation(for: predicate, evaluatedWith: aesopQuery, handler: nil)
+        expectation(for: predicate, evaluatedWith: kalamQuery, handler: nil)
 
         waitForExpectations(timeout: 10, handler: nil)
 
-        aesopQuery.click()
+        kalamQuery.click()
     }
 }
